@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.ttt {
+    color:darkgrey;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+}
+.ttt a {
+    padding: 15px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.ttt a:hover {
+    border: 1px solid gray;
+    cursor: pointer;
+    color: azure;
+}
+.ttt a:visited {
+    color:darkgrey;
+    text-decoration: none;
+}
+.heed {
+    display: flex;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    justify-content: center;
+}
+h2 {
+    color: #1a1615 ;
+    padding-top: 125px;
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 25px;
+}
+h2:hover {
+    color:darkgrey;
+}
+p {
+    font-size: 1.2rem;
+}
+.bio {
+    padding: 150px;
+    margin: 50px;
+    color:dimgrey ;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+.bio img {
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+}
+h3 {
+    padding-bottom: 25px;
+    font-size: 2rem;
+}
+h4 {
+    color:dimgrey ; 
+    font-weight: 300;
+    text-align: center;
+    padding: 50px;
+}
+.ft {
+    text-align: center;
+}
+.ft i {
+    color: dimgray;
+    font-size: 2.5rem;
+    padding: 15px;
+}
+.ft i:hover {
+    color:azure;
+}
+.mnn {
+    margin-top: 125px;
+    text-align: center;
+    margin-bottom: 125px;
+}
+h5 {
+    color: aliceblue;
+    font-size: 1rem;
+    margin-top: 75px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.cntc {
+    color: azure;
+    text-align: center;
+    width: 100;
+    margin-top: 125px;
+    margin-bottom: 225px;
+}
+.cntc a:hover {
+    border: 1px solid gray;
+    cursor: pointer;
+    color: azure;
+}
+.cntc a {
+    color: azure;
+    text-decoration: none;
+}
+iframe .mapp {
+    width: 50%;
+    height: 80vh;
+    background-color: aqua;
+    text-align: center;
+    align-items: center;
+    justify-content: center
+}
+@media(max-width: 768px) {
+    .yyy {
+       width: auto; 
+    }
+    .bio {
+        padding: 10px;
+        flex-wrap: wrap;
+        flex: 0 0 1;
+    }
+    .bio h3 {
+        text-align: center;
+    }
+    .bio p {
+        padding-bottom: 25px;
+    }
+    .ttt a {
+        font-size: 0.8rem;
+    }
+    .ft i {
+        font-size: 1.2rem;
+    }
+    .bio img {
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+    }
+    .mnn {
+        margin-top: 25px;
+        margin-bottom: 35px;
+    }
+    .YT { 
+        height: 200;
+    }
+    .cntc {
+        margin: 30px;
+        padding-top: 25px;
+        padding-bottom: 55px;
+        width: 80%;
+    }
+}
+
+
